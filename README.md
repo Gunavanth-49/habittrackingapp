@@ -1,3 +1,4 @@
+
 # habit-tracker
 
 Small Spring Boot 3 (Java 17, Maven) habit tracker with a REST API and a one-page UI. Data is kept in memory only (no database). Used as the sample app for a CI/CD pipeline assignment.
