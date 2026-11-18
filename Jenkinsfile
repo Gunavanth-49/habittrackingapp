@@ -10,8 +10,8 @@ def mvnw(String args) {
 pipeline {
     agent any
 
-    triggers {
-        pollSCM('* * * * *')
+    tools {
+        jdk 'JDK17'
     }
 
     options {
